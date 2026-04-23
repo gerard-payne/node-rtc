@@ -1,0 +1,35 @@
+{
+  "name": "nodertc",
+  "version": "1.0.0",
+  "description": "STUN/TURN/ICE server implementation in Node.js with full test coverage",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage",
+    "lint": "eslint src/ tests/",
+    "docs": "jsdoc -c jsdoc.conf.json",
+    "demo": "node demo/run-all.js"
+  },
+  "keywords": [
+    "stun",
+    "turn",
+    "ice",
+    "webrtc",
+    "rtc",
+    "server",
+    "udp",
+    "nat",
+    "traversal"
+  ],
+  "author": "Gerard Payne",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jsdoc": "^4.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

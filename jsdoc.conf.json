@@ -1,0 +1,11 @@
+{
+  "source": {
+    "include": ["./src/", "./README.md"],
+    "includePattern": "\\.(js|ts)$",
+    "exclude": ["node_modules/"]
+  },
+  "opts": {
+    "destination": "./docs/"
+  },
+  "plugins": ["plugins/markdown"]
+}

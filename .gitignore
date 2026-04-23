@@ -1,0 +1,10 @@
+node_modules/
+*.log
+.DS_Store
+.env
+docs/
+*.tgz
+*.tar.gz
+coverage/
+.nyc_output/
+dist/
